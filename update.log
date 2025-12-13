@@ -79,3 +79,11 @@ Traceback (most recent call last):
     os.makedirs(self.output_dir, exist_ok=True)
   File "<frozen os>", line 225, in makedirs
 FileExistsError: [Errno 17] File exists: 'Sublist'
+2025-12-13 16:11:22,764 - CRITICAL - ❌ خطا: [Errno 17] File exists: 'Sublist'
+Traceback (most recent call last):
+  File "/home/runner/work/MihomoSazLite/MihomoSazLite/update_sublist.py", line 156, in <module>
+    processor.generate_configs()
+  File "/home/runner/work/MihomoSazLite/MihomoSazLite/update_sublist.py", line 125, in generate_configs
+    os.makedirs(self.output_dir, exist_ok=True)
+  File "<frozen os>", line 225, in makedirs
+FileExistsError: [Errno 17] File exists: 'Sublist'
