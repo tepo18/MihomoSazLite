@@ -54,3 +54,11 @@
 2025-10-03 21:49:33,856 - INFO - ✅ پردازش با موفقیت انجام شد!
 2025-10-17 16:38:15,082 - INFO - فایل‌ها با موفقیت ساخته شدند!
 2025-10-17 16:38:15,082 - INFO - ✅ پردازش با موفقیت انجام شد!
+2025-12-13 15:55:59,190 - CRITICAL - ❌ خطا: [Errno 17] File exists: 'Sublist'
+Traceback (most recent call last):
+  File "/home/runner/work/MihomoSazLite/MihomoSazLite/update_sublist.py", line 156, in <module>
+    processor.generate_configs()
+  File "/home/runner/work/MihomoSazLite/MihomoSazLite/update_sublist.py", line 125, in generate_configs
+    os.makedirs(self.output_dir, exist_ok=True)
+  File "<frozen os>", line 225, in makedirs
+FileExistsError: [Errno 17] File exists: 'Sublist'
